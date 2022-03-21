@@ -1,0 +1,7 @@
+VS Code is an IDE - Integrated Development Environment.
+
+It's like a word processor for word documents.
+
+File extensions are very important - they tell VS Code (and your computer) what kind of file you are writing - what language you're writing in.
+
+For instance, the .txt file extension will create a plain text file.
