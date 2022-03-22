@@ -1,0 +1,43 @@
+h1 {
+  color: rebeccapurple;
+}
+
+.box {
+  background-color: aqua;
+  width: 200px;
+  min-height: 200px;
+}
+
+.inline {
+  display: inline;
+}
+
+.icon {
+  width: 50px;
+}
+
+.inline-block {
+  /* peas and carrots!! */
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.box-2 {
+  width: 200px;
+  background-color: coral;
+  min-height: 350px;
+}
+
+.circle {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: orange;
+}
+
+/*
+display: inline-block
+vertical-align
+padding
+margin
+*/

@@ -1,0 +1,13 @@
+h1 {
+  color: rebeccapurple;
+}
+
+h3 {
+  /* Shorthand Properties */
+  /* padding-top, padding-right, padding-bottom, padding-left */
+  padding: 20px;
+  /* border-width, border-style, border-color */
+  border: 5px solid red;
+}
+
+/* padding pushes content in, while margin pushes neighbors away */
