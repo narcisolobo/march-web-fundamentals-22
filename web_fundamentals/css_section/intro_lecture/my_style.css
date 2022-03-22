@@ -1,0 +1,42 @@
+/* 
+
+Parts of a CSS Rule:
+1. Selector
+2. Property
+3. Value of property
+
+*/
+
+h1 {
+  color: mediumvioletred;
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 48pt;
+  background-color: burlywood;
+  margin: 0;
+}
+
+body {
+  margin: 0;
+}
+
+/* 
+
+Types of selectors:
+1. The HTML element name
+2. The ID selector - # followed by ID name
+3. The class selector - . followed by class name
+
+*/
+
+#first-paragraph {
+  color: blue;
+}
+
+.arial {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.larger {
+  font-size: larger;
+}
