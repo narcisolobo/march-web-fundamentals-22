@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: lightgreen;
+  min-height: 300px;
+  /* width: 300px; */
+  /* magic line for centering */
+  /* margin: 0 auto;
+  padding: 50px;
+  border: 5px solid black; */
+}
+
+.header {
+  background-color: tomato;
+  min-height: 50px;
+}
+
+#main {
+  background-color: yellow;
+  min-height: 300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#aside {
+  background-color: deepskyblue;
+  min-height: 300px;
+  flex: 2;
+}
+
+#content {
+  background-color: lavender;
+  min-height: 300px;
+  flex: 3;
+}
