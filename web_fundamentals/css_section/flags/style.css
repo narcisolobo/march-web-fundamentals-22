@@ -1,0 +1,108 @@
+/* CSS RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* Utility Classes */
+body {
+  background-color: grey;
+}
+
+.container {
+  background-color: white;
+  width: 70%;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+h1, h2 {
+  margin-bottom: 1rem;
+}
+
+#madagascar, #mali {
+  margin-bottom: 2rem;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.flag-container23 {
+  border: 3px solid black;
+  width: 450px;
+  min-height: 300px;
+}
+
+.flag-container811 {
+  border: 3px solid black;
+  width: 440px;
+  min-height: 320px;
+}
+
+.flex-1 {
+  flex: 1;
+  align-self: stretch;
+  justify-self: stretch;
+}
+
+.flex-2 {
+  flex: 2;
+  align-self: stretch;
+  justify-self: stretch;
+}
+
+.flex-6 {
+  flex: 6;
+  align-self: stretch;
+  justify-self: stretch;
+}
+
+.flex-12 {
+  flex: 12;
+  align-self: stretch;
+  justify-self: stretch;
+}
+
+.white {
+  background-color: white;
+}
+
+/* Madagascar */
+.mad-red {
+  background-color: #fc3e32;
+  min-height: 150px;
+}
+
+.mad-green {
+  background-color: #017e3a;
+  min-height: 150px;
+}
+
+/* Mali */
+.mali-green {
+  background-color: #13b53a;
+}
+
+.mali-yellow {
+  background-color: #fed116;
+}
+
+.mali-red {
+  background-color: #cd1128;
+}
+
+.mali-green, .mali-yellow, .mali-red {
+  min-height: 300px;
+}
