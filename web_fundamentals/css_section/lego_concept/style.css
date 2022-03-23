@@ -30,7 +30,7 @@
 #aside {
   background-color: deepskyblue;
   min-height: 300px;
-  flex: 2;
+  flex: 1;
 }
 
 #content {
