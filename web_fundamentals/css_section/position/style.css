@@ -1,0 +1,77 @@
+* {
+  /* margin: 0;
+  padding: 0; */
+  box-sizing: border-box;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* CSS Custom Property!! */
+:root {
+  --body-bg: white;
+}
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+  /* padding: 100px 0; */
+  /* border: 1px dashed red; */
+}
+
+h1 {
+  color: rebeccapurple;
+}
+
+.box {
+  background-color: aquamarine;
+  width: 500px;
+  min-height: 300px;
+}
+
+.static {
+  position: static;
+  left: 100px;
+  top: 100px;
+}
+
+.relative {
+  position: relative;
+  left: 20px;
+  top: 20px;
+  z-index: -5;
+}
+
+.absolute {
+  position: absolute;
+  left: 25px;
+  top: -25px;
+}
+
+.circle {
+  width: 50px;
+  min-height: 50px;
+  background-color: gold;
+  border-radius: 50%;
+}
+
+.header {
+  background-color: black;
+  padding: 20px;
+  width: 1000px;
+  border-bottom: 20px solid var(--body-bg);
+}
+
+.fixed {
+  position: fixed;
+  bottom: 0;
+}
+
+.cookie {
+  background-color: bisque;
+  padding: 20px;
+  width: 1000px;
+}
+
+.sticky {
+  position: sticky;
+  top: 0;
+}

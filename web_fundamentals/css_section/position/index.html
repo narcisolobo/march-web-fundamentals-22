@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Position</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="header sticky">CSS Position</h1>
+        <h2>Position Rule #1 - Do Not Abuse Position!</h2>
+        <p>Five values for the position property:</p>
+        <ol>
+            <li>Static</li>
+            <li>Relative</li>
+            <li>Absolute</li>
+            <li>Fixed</li>
+            <li>Sticky</li>
+        </ol>
+        <p>Some good uses of the position property include:</p>
+        <ul>
+            <li>Breaking the plane of a container with another element.</li>
+            <li>Navbar that always remains in place (at the top of your window)</li>
+            <li>Cookie notices that remain fixed</li>
+        </ul>
+        <h3>Static</h3>
+        <p><em>The default value of position.</em>  Left, top, right, and bottom will NOT move your element.</p>
+        <div class="box static"></div>
+        <h3>Relative</h3>
+        <p>The element is positioned <em>relative</em> to its normal position in the document flow. Left, top, right, and bottom will move your element.</p>
+        <div class="box relative"></div>
+        <h3>Absolute</h3>
+        <p>The element is positioned <em>relative</em> to its closest positioned ancestor. Left, top, right, and bottom will move your element. <strong>When you absolutely position an element, you must relatively position its parent.</strong> </p>
+        <div class="box relative">
+            <div class="circle absolute"></div>
+        </div>
+        <h3>Fixed</h3>
+        <p>The element is positioned <em>relative</em> to the window. The cookie box element at the bottom of this page is fixed.</p>
+        <div class="cookie fixed"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis quasi fugiat, laudantium nam enim deleniti id impedit quibusdam praesentium nostrum minima laborum omnis repellendus quo.</p></div>
+        <h3>Sticky</h3>
+        <p>The element toggles between fixed and relative. The header on this page has position sticky.</p>
+    </div>
+</body>
+</html>
