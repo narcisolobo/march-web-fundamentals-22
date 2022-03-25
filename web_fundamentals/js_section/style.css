@@ -1,0 +1,16 @@
+h1 {
+  color: rebeccapurple;
+}
+
+#playground {
+  background-color: aquamarine;
+  width: 200px;
+  height: 200px;
+  margin-bottom: 20px;
+}
+
+#playground2 {
+  background-color: aquamarine;
+  width: 200px;
+  height: 200px;
+}
