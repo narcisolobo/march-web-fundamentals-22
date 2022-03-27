@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+:root {
+  --dark-bg: #333333;
+  --blue-bg: #15a2b8;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Balsamiq Sans', cursive;
+}
+
+/* ---- utility styles ---- */
+.flex-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+}
+
+.flex-start {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+}
+
+.flex-end {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 1rem;
+}
+
+.container {
+  width: 900px;
+  margin: 0 auto;
+}
+
+a {
+  color: #2c78e4;
+}
+
+.text-grey {
+  color: #666666;
+}
+
+.card {
+  border: 2px solid #9e9e9e;
+  margin-bottom: 2rem;
+}
+
+.card-header {
+  background: var(--dark-bg);
+  padding: .5rem 1.5rem;
+}
+
+.card-header-sm {
+  background: var(--dark-bg);
+  padding: .5rem;
+}
+
+.card-header h2 {
+  color: white;
+  font-size: medium;
+  font-weight: 400;
+}
+
+.card-header-sm h2 {
+  color: white;
+  font-size: medium;
+  font-weight: 400;
+}
+
+.card-header-sm span {
+  padding: .25em .5em;
+  border-radius: 50%;
+  background: #cccccc;
+}
+
+.card-body {
+  padding: 1.5rem;
+}
+
+.card-body-sm {
+  padding: 1rem .5rem;
+}
+
+.icon-sm {
+  width: 20px;
+}
+
+.icon-md {
+  width: 30px;
+}
+
+.icon-lg {
+  width: 40px;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+
+.mb-sm {
+  margin-bottom: .5rem;
+}
+
+.mb-lg {
+  margin-bottom: .75rem;
+}
+/* ---- utility styles ---- */
+
+/* ---- header styles ---- */
+header {
+  background: black;
+  padding: 1rem;
+  margin-bottom: 2rem;
+}
+
+header ul {
+  list-style: none;
+}
+
+header a {
+  color: #cccccc;
+  text-decoration: none;
+}
+
+.brand {
+  font-size: xx-large;
+}
+
+.brand, header a.active {
+  color: white;
+}
+
+header a:hover {
+  color: white;
+}
+
+.btn {
+  background: var(--blue-bg);
+  color: white;
+  font-size: large;
+  padding: .25em 1em;
+  border: 0;
+  cursor: pointer;
+  transition: all 100ms ease-in-out;
+}
+/* ---- header styles ---- */
+
+/* ---- main styles ---- */
+main {
+  flex: 2;
+}
+/* ---- main styles ---- */
+
+/* ---- user card styles ---- */
+.card-top {
+  height: 75px;
+  background: var(--blue-bg);
+  position: relative;
+}
+
+.profile-icon {
+  width: 100px;
+  border-radius: 50%;
+  position: absolute;
+  left: 1.5rem;
+  top: 25px;
+  border: 5px solid white;
+}
+
+.card-body h1 {
+  margin-top: 2rem;
+  font-weight: 400;
+}
+/* ---- user card styles ---- */
+
+/* ---- aside styles ---- */
+aside {
+  align-self: flex-start;
+  flex: 1;
+}
+/* ---- aside styles ---- */
