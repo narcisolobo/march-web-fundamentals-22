@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More DOM Stuff</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="container flex">
+            <h1>More DOM Stuff</h1>
+            <ul id="menu" class="flex">
+                <li><a onmouseover="activateLink(this)" onmouseout="deactivateLink(this)" href="">Home</a></li>
+                <li><a onmouseover="activateLink(this)" onmouseout="deactivateLink(this)" href="">About</a></li>
+                <li><a onmouseover="activateLink(this)" onmouseout="deactivateLink(this)" href="">Services</a></li>
+                <li><a onmouseover="activateLink(this)" onmouseout="deactivateLink(this)" href="">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <main class="flex container">
+        <div class="left-column">
+            <h2>Document Object Model</h2>
+            <h3>The representation or "model" of the document (browser window) as an object.</h3>
+            <h2>Event Listeners</h2>
+            <p>Event listeners are DOM methods that "listen" for events.</p>
+            <ul>
+                <li>Mouse Clicks</li>
+                <li>Mouse Overs</li>
+                <li>Mouse Outs</li>
+                <li>Specific Key Presses</li>
+            </ul>
+            <p><strong>If the element you are manipulating is the element that is listening, you can use the <em>this</em> keyword.</strong></p>
+            <button onclick="deleteMe(this)">CLICK ME</button>
+            <div>
+                <label for="your_name">Your Name:</label>
+                <input type="text" id="your_name">
+                <button onclick="sayHello()">Submit</button>
+            </div>
+            <div>
+                <p><strong>If the element you are manipulating is NOT the element that is listening, you can use the element's id.</strong></p>
+                <label for="fav_color">Favorite Color:</label>
+                <select onchange="setColor(rightColumn)" id="fav_color">
+                    <option value="red">Red</option>
+                    <option value="blue">Blue</option>
+                    <option value="yellow">Yellow</option>
+                </select>
+            </div>
+        </div>
+        <div id="rightColumn" class="right-column">
+            <p>What do we know about objects?</p>
+            <p>Objects have characteristics and things they can do. i.e, properties and methods.</p>
+            <p>We as devs can then hook in to these properties and methods to manipulate the DOM.</p>
+        </div>
+    </main>
+    <script src="./script.js"></script>
+</body>
+</html>
