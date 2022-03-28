@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magic 8 Ball</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Magic 8 Ball</h1>
+    <div class="form">
+        <h2 class="mb">What is your question for the oracle today?</h2>
+        <label for="question">Ask Question:</label>
+        <input type="text" id="question">
+        <button onclick="tellFortune()">ASK</button>
+    </div>
+    <p id="user-question" class="mb"></p>
+    <p id="fortune"></p>
+    <script src="./script.js"></script>
+</body>
+</html>

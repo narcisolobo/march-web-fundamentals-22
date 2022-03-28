@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --display-font: 'Titillium Web', sans-serif;
+  --body-font: 'Ubuntu', sans-serif;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.container {
+  width: 70%;
+  margin: 0 auto;
+}
+
+body {
+  background-color: rgb(25, 25, 67);
+  color: white;
+}
+
+h1 {
+  font-family: var(--display-font);
+  background-color: rgb(0, 0, 73);
+  padding: .5rem;
+}
+
+h1, h2 {
+  font-family: var(--display-font);
+  text-align: center;
+}
+
+label {
+  font-family: var(--body-font);
+}
+
+.form {
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.mb {
+  margin-bottom: .5rem;
+}
+
+#user-question, #fortune {
+  font-family: var(--body-font);
+  text-align: center;
+}
