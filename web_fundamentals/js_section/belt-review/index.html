@@ -9,16 +9,89 @@
 </head>
 <body>
     <header>
-        <div class="container">
-            <h1>GamingDojo</h1>
+        <div class="container flex">
+            <h1>Gaming<span>Dojo</span></h1>
+            <div class="header-right flex">
+                <select>
+                    <option>Euro €</option>
+                </select>
+                <img src="./images/cart-light.png" alt="Shopping Cart">
+                <p id="cart-count">0</p>
+                <img src="./images/search-light.png" alt="Search">
+            </div>
         </div>
     </header>
     <main class="container">
-        <div class="highlights"></div>
+        <div class="highlights">
+            <h2>Highlights</h2>
+            <div class="carousel flex">
+                <img onclick="prevImage()" src="./images/chevron-left.png" alt="Back">
+                <img id="banner-image" class="banner" src="./images/stonepunk.png" alt="Stonepunk">
+                <img onclick="nextImage()" class="flipped" src="./images/chevron-left.png" alt="Next">
+            </div>
+            <div class="markers flex">
+                <div class="marker"></div>
+                <div class="marker active"></div>
+                <div class="marker"></div>
+                <div class="marker"></div>
+            </div>
+        </div>
         <div class="features flex">
-            <div class="feature"></div>
-            <div class="feature"></div>
-            <div class="feature"></div>
+            <div class="feature">
+                <img class="feature-img" src="./images/cafe-neko.png" alt="Café Neko">
+                <div class="feature-copy">
+                    <h2 class="mb">Café Neko: Gold Edition</h2>
+                    <div class="justify-start mb">
+                        <img class="os-icon" src="./images/windows.png" alt="Windows">
+                        <img class="os-icon" src="./images/apple.png" alt="Apple">
+                    </div>
+                    <div class="flex">
+                        <button class="btn bg-purple">-20%</button>
+                        <div class="prices">
+                            <p class="old-price">€14.98</p>
+                            <p class="sale-price">€10.49</p>
+                        </div>
+                        <button onclick="addItem()" class="btn bg-green">Buy</button>
+                    </div>
+                </div>
+            </div>
+            <div class="feature">
+                <img class="feature-img" src="./images/pixel-ninjas-2.png" alt="Pixel Ninjas">
+                <div class="feature-copy">
+                    <h2 class="mb">Café Neko: Gold Edition</h2>
+                    <div class="justify-start mb">
+                        <img class="os-icon" src="./images/windows.png" alt="Windows">
+                        <img class="os-icon" src="./images/apple.png" alt="Apple">
+                    </div>
+                    <div class="flex">
+                        <button class="btn bg-purple">-20%</button>
+                        <div class="prices">
+                            <p class="old-price">€14.98</p>
+                            <p class="sale-price">€10.49</p>
+                        </div>
+                        <button onclick="addItem()" class="btn bg-green">Buy</button>
+                    </div>
+                </div>
+            </div>
+            <div class="feature">
+                <img class="feature-img" src="./images/stonepunk.png" alt="Stonepunk">
+                <div class="feature-copy">
+                    <h2 class="mb">Café Neko: Gold Edition</h2>
+                    <div class="justify-start mb">
+                        <img class="os-icon" src="./images/windows.png" alt="Windows">
+                        <img class="os-icon" src="./images/apple.png" alt="Apple">
+                        <img onclick="alert('This game is supported on Linux.')" src="./images/linux.png" alt="Linux" class="os-icon">
+                    </div>
+                    <div class="flex">
+                        <button class="btn bg-purple">-20%</button>
+                        <div class="prices">
+                            <p class="old-price">€14.98</p>
+                            <p class="sale-price">€10.49</p>
+                        </div>
+                        <button onclick="addItem()" class="btn bg-green">Buy</button>
+                    </div>
+                </div>
+            </div>
         </div>
     </main>
     <script src="./script.js"></script>

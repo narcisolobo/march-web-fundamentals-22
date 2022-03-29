@@ -1,7 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Balsamiq Sans', cursive;
+}
+
+body {
+  background-color: #eeeeee;
 }
 
 /* utility classes */
@@ -11,32 +18,128 @@
   align-items: center;
   gap: 1.5rem;
 }
-/* utility classes */
 
-header {
-  background-color: aqua;
-  min-height: 50px;
+.justify-start {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: .25rem;
 }
 
+.mb {
+  margin-bottom: 1rem;
+}
+/* utility classes */
+
+/* header  classes */
+header {
+  background-color: black;
+  padding: .5rem 0;
+}
+
+header {
+  color: white;
+}
+
+header h1 span {
+  color: #9828ff;
+}
+
+header img {
+  width: 50px;
+}
+/* header classes */
+
 .container {
-  background-color: yellow;
+  /* background-color: yellow; */
   min-height: 50px;
   width: 1000px;
   margin: 0 auto;
 }
 
+/* highlights classes */
 .highlights {
-  background-color: lavender;
+  /* background-color: lavender; */
+  margin-top: 1.5rem;
   min-height: 200px;
 }
 
+.flipped {
+  transform: scaleX(-1);
+}
+
+.banner {
+  width: 800px;
+}
+
+.carousel {
+  margin: 1.5rem 0;
+}
+
+.markers {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.marker {
+  background-color: #999999;
+  height: 3px;
+  flex: 1;
+}
+
+.active {
+  background-color: #9828ff;
+}
+/* highlights classes */
+
 .features {
-  background-color: orange;
+  /* background-color: orange; */
+  margin-top: 1.5rem;
   min-height: 200px;
 }
 
 .feature {
-  background-color: lightblue;
-  min-height: 200px;
+  background-color: white;
   flex: 1;
+}
+
+.feature-copy {
+  background-color: white;
+  padding: .5rem;
+}
+
+.feature-img {
+  width: 100%;
+}
+
+.os-icon {
+  width: 40px;
+}
+
+.prices {
+  text-align: right;
+}
+
+.old-price {
+  color: darkgray;
+  text-decoration: line-through;
+}
+
+.sale-price {
+  font-size: x-large;
+}
+
+.btn {
+  padding: .5em 1em;
+  color: white;
+  border: 0;
+  font-size: large;
+}
+
+.bg-purple {
+  background-color: #9828ff;
+}
+
+.bg-green {
+  background-color: #69a84f;
 }
