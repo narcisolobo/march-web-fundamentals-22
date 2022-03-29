@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* utility classes */
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1.5rem;
+}
+/* utility classes */
+
+header {
+  background-color: aqua;
+  min-height: 50px;
+}
+
+.container {
+  background-color: yellow;
+  min-height: 50px;
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.highlights {
+  background-color: lavender;
+  min-height: 200px;
+}
+
+.features {
+  background-color: orange;
+  min-height: 200px;
+}
+
+.feature {
+  background-color: lightblue;
+  min-height: 200px;
+  flex: 1;
+}
