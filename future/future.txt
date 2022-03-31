@@ -1,0 +1,39 @@
+Full Stack - Front End (client side), Back End (server side), Database
+
+Going forward - end goal will be to build a web app capable of full CRUD
+
+Create, Read, Update and Destroy
+
+Learn how to learn.
+
+Python - Flask
+MERN - MongoDB, Express.js, React.js, Node.js
+C# - ASP/.NET
+Java - Spring MVC
+
+Things to do to prepare for Python:
+- Get used to the Terminal (MIT Terminus - https://web.mit.edu/mprat/Public/web/Terminus/Web/main.html)
+- Get used to Git and Github (Oh My Git! https://ohmygit.org/)
+- Take a look at SQL (SQL Zoo - https://sqlzoo.net/wiki/SELECT_from_WORLD_Tutorial)
+- Basic 13 in JS, also in Python
+- Algo App
+
+Terminal
+PC - Command Prompt, PowerShell, Git Bash
+Mac - ZShell
+
+CLI - Command Line Interface
+
+Create a file
+PowerShell - new-item
+CMD - echo "" > filename
+
+Git and Github
+Git is version control software. It allows us to keep track of changes in a code base (or repository).
+GitHub is cloud storage for our Git repositories. Facilitates working with others on the same project.
+
+1. Go to the root directory of your project. cd 
+2. Initialize a repository. git init
+3. Add files and/or folders to the repo. git add .
+4. Make a commit with a message (taking a snapshot with a caption) of your code in its current state. git commit -m "initial commit"
+
